@@ -1,0 +1,16 @@
+.alert-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background: transparent;
+    z-index: 1;
+}
+
+.custom-alert {
+    position: fixed !important;
+    background-color: white !important;
+    color: rgba(0, 0, 0, 0.788) !important;
+    font-size: 1.1rem;
+    text-align: center;
+}

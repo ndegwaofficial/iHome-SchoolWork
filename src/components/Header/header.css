@@ -1,0 +1,55 @@
+.profile-header {
+    padding: 10px 16px;
+}
+
+.profile-header * {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.profile-img-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 15px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-size: cover;
+    display: block;
+}
+
+.profile-name {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.profile-email {
+    font-size: 17px;
+    font-weight: 370;
+}
+
+.profile-padding {
+    padding: 20px 15px;
+}
+
+
+.pw-btn-wrapper {
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /*background-color: #000000;*/
+}
+
+.MuiToolbar-regular {
+    min-height: 60px !important;
+}

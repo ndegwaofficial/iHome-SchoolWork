@@ -1,0 +1,98 @@
+#root>div>div.map-out-div>div.map-wrapper>div>div:nth-child(2) {
+  z-index: -5 !important;
+}
+
+body {
+  overflow: hidden;
+  /*background-color: transparent;*/
+  backgroundColor: rgba(0,0,0,0.7);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  /*background: linear-gradient(-45deg,*/
+  /*    #ee7752,*/
+  /*    #e73c7e,*/
+  /*    #23a6d5,*/
+  /*    #23d5ab,*/
+  /*    #aa4b6b,*/
+  /*    #6b6b83,*/
+  /*    #3b8d99,*/
+  /*    #ff0099,*/
+  /*    #493240);*/
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),  url(assets/images/back.jpg);
+  /*background: #5CE1E6;*/
+  /*background-size: 900% 900%;*/
+  animation: gradient 30s ease infinite;
+}
+.agileinfo-dot {
+  background: url("assets/images/dott.png") repeat 0px 0px;
+
+  background-size: 2px;
+  -webkit-background-size: 2px;
+  -moz-background-size: 2px;
+  -o-background-size: 2px;
+  -ms-background-size: 2px;
+  padding: 3em 0;
+  height: 100vh;
+}
+.dott {
+  /*background: url("assets/images/dott.png") repeat 0px 0px;*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(14, 73, 27)),  url(assets/images/dott.png);
+  color: #00ff35;
+  background-size: 2px;
+  -webkit-background-size: 2px;
+  -moz-background-size: 2px;
+  -o-background-size: 2px;
+  -ms-background-size: 2px;
+  /*padding: em 0;*/
+  padding-left: 1%;
+  height: 100%;
+}
